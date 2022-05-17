@@ -1,6 +1,18 @@
 \documentclass{addressng4}
 % sample of name and address printings for 'nagagata-4' (envelope of japanese standard)
 
+% to display the print position (area), comment out the followings.
+%\paperperimetertrue  % paper perimeter
+%\postcodetrue        % postcode
+%\addressatrue        % address A
+%\addressbtrue        % address B
+%\nametrue            % name
+%\spostcodetrue       % sender's postcode
+%\saddressatrue       % sender's address A
+%\saddressbtrue       % sender's address B
+%\snametrue           % sender's name
+
+
 \begin{document}
 \addreceiveraddress{名字}{名前}{様}{1234567}{一○○県○○市○○町○○ー○○}{＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊}
 
@@ -8,3 +20,4 @@
 
 \addsenderaddress{名字}{名前}{1234567}{○○県○○市○○町○○ー○○}{＊＊＊＊＊＊＊＊＊＊＊＊}
 \end{document}
+
