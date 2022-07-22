@@ -9,4 +9,5 @@ You can make your own document class easily.
   2. type 'make' command ( or use your tex editor ) to make example.pdf.
   3. print example.pdf 
 
-2022/05/17 Added display options to display the position (area) of the text.
+2022/05/17 Added display options to display the position (area) of the text.  
+2022/07/22 Added an argument for notes.
